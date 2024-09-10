@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=p, initial-scale=1.0">
+    <title>praktikum 1</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td>Nama</td>
+            <td>:</td>
+            <td><input type="text" name="nama" id="nama"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>:</td>
+            <td><input type="text" name="pass" id="pass"></td>
+        </tr>
+        <tr>
+            <td>Age Range</td>
+            <td>:</td>
+            <td><label for="umur"></label>
+                <select id="umur" name="umur">
+                    <option value="0-15">0-15</option>
+                    <option value="16-30">16-30</option>
+                    <option value="31-45">31-45</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Life Story</td>
+            <td>:</td>
+        </tr>
+        <tr>
+            <td colspan="5"><textarea name="ls" id="ls" rows="10" cols="50">   Enter your life story here</textarea></td>
+        </tr>
+        <tr>
+            <td>Your Favorite sport</td>
+            <td>:</td>
+            <td>
+                <input type="radio" name="sport" id="tennis">Tennis
+                <input type="radio" name="sport" id="cricket">Cricket
+                <input type="radio" name="sport" id="baseball">Baseball
+                <input type="radio" name="sport" id="polo">Polo
+            </td>
+        </tr>
+        <tr>
+            <td>Language You Choose</td>
+            <td>:</td>
+            <td>
+                <input type="checkbox" name="Language" id="php">PHP
+                <input type="checkbox" name="Language" id="cpp">C++
+                <input type="checkbox" name="Language" id="delphi">Delphi
+                <input type="checkbox" name="Language" id="java">Java
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Submit">
+                <input type="reset" value="reset">
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
